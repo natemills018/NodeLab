@@ -1,0 +1,22 @@
+{
+  "name": "nodefun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "catchFilms": "node films.js",
+    "catchURLs": "node poster-downloader.js",
+    "banners": "node banner-downloader.js"
+  },
+  "author": "\"Nate Mills\"",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "axois": "^0.0.1-security",
+    "image-downloader": "^4.3.0",
+    "images-downloader": "^1.0.3",
+    "node-fetch": "^3.3.2"
+  }
+}
